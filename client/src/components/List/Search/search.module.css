@@ -1,0 +1,21 @@
+.searchBlock {
+    position: relative;
+}
+.searchInput:focus{
+    border-radius: 3px !important;
+    border-color: #5c5c5c !important;
+    box-shadow: 0 0 0 0.2rem rgba(223, 223, 223, 0.25) !important;
+}
+.searchIcon {
+    position: absolute;
+    right: 10px;
+    z-index: 999;
+    opacity: 0.8;
+}
+
+.clearIcon {
+    position: absolute;
+    right: 40px;
+    z-index: 999;
+    opacity: 0.8;
+}

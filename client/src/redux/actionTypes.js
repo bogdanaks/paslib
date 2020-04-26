@@ -1,0 +1,21 @@
+export const FETCH_USER         = 'USER/FETCH_USER'
+export const REGISTER_USER      = 'USER/REGISTER_USER'
+export const LOGIN_USER         = 'USER/LOGIN_USER'
+export const LOGOUT_USER        = 'USER/LOGOUT_USER'
+
+export const RECEIVE_ITEMS      = 'ITEM/RECEIVE_ITEMS'
+export const CREATE_ITEM        = 'ITEM/CREATE_ITEM'
+export const DELETE_ITEM        = 'ITEM/DELETE_ITEM'
+export const CHANGE_ITEM_FIELD  = 'ITEM/CHANGE_ITEM_FIELD'
+
+export const COUNT_PAGES        = 'PAGES/COUNT_PAGES'
+export const CURRENT_PAGE       = 'PAGES/CURRENT_PAGE'
+
+export const SHOW_LOADER        = 'APP/SHOW_LOADER'
+export const SHOW_LOADER_IMAGE  = 'APP/SHOW_LOADER_IMAGE'
+export const HIDE_LOADER        = 'APP/HIDE_LOADER'
+export const HIDE_LOADER_IMAGE  = 'APP/HIDE_LOADER_IMAGE'
+export const SHOW_ALERT_DANGER  = 'APP/SHOW_ALERT_DANGER'
+export const HIDE_ALERT_DANGER  = 'APP/HIDE_ALERT_DANGER'
+export const SHOW_ALERT_SUCCESS = 'APP/SHOW_ALERT_SUCCESS'
+export const HIDE_ALERT_SUCCESS = 'APP/HIDE_ALERT_SUCCESS'

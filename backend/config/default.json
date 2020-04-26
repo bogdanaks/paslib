@@ -1,0 +1,5 @@
+{
+    "port": 5000,
+    "mongoUri": "mongodb+srv://<username>:<password>@cluster1-iuydu.mongodb.net/paslib?retryWrites=true&w=majority",
+    "token_secret": "ClDwtlPS7L@hShY"
+}

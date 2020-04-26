@@ -1,0 +1,28 @@
+/* Поля ввода */
+.editField {
+    cursor: text;
+    display: flex !important;
+    flex-direction: row !important;
+    align-items: center !important;
+}
+
+.editInput {
+    position: relative;
+    border: none;
+    width: 100%;
+}
+.editInput:focus {
+    outline: none !important;
+}
+.editInput[type="link"] {
+    color: blue;
+}
+
+.editSelect {
+    position: relative;
+    border: none;
+    width: 100%;
+}
+.editSelect:focus {
+    border-color: 1px solid #000 !important;
+}

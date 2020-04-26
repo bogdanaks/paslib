@@ -1,0 +1,15 @@
+/* Стили карточки */
+.cardHorizontal {
+    display: flex;
+    flex: 1 1 auto;
+    box-shadow: 1px 1px 5px 0px rgb(219, 219, 219);
+}
+@media (max-width: 576px) {
+    .cardHorizontal {
+        display: flex;
+        flex-direction: column;
+    }
+    .cardHorizontal img{
+        width: 50% !important;
+    }
+}

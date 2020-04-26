@@ -1,0 +1,16 @@
+.authWrapper {
+    height: 90vh !important;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.inputAuth {
+    height: 50px;
+    border: 1px solid #1d2124;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.inputAuth:focus {
+    border: 1px solid #1d2124;
+    box-shadow: 0 0 0 0.1rem rgba(82,88,93,.5);
+}

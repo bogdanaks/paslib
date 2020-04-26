@@ -1,0 +1,6 @@
+.errorWrapper {
+    height: 90vh !important;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

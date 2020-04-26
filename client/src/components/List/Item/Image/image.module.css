@@ -1,0 +1,28 @@
+.changeBlock {
+    position: absolute;
+    background: rgba(0, 0, 0, 0.1);
+    width: 75%;
+    height: 35px;
+    bottom: 5px;
+    border-radius: 3%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.changeButton {
+    width: 100%;
+}
+.changeButton button{
+    color: rgb(0, 0, 0);
+    border: none !important;;
+    background: none !important;;
+    cursor: pointer;
+    width: 100%;
+    outline: none !important;
+}
+
+.imageBlock {
+    display: flex !important;
+    justify-content: center !important;   
+}
